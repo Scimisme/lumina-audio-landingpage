@@ -1,1 +1,2 @@
-# lumina-audio
+# LUMINA Audio landingpage
+Af gruppe 2
