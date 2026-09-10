@@ -11,7 +11,7 @@
 /* Header */
 .header {
     background-image: url(Hero_page_1.jpg);
-    background-size: cover;
+    background-size:cover;
     height: 100%;
     padding-left: 5%;
     line-height: 350%;
@@ -28,30 +28,34 @@ padding-top: 11%;
 width: 15em;
 }
     
-.header h1 {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    line-height:110%;
-    font-weight: lighter;
+#h1_1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .header p {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: sans-serif;
     padding-top: 2%;
     padding-bottom: 2%;
     line-height: 110%;
     font-weight:lighter;
 }
 
+#h1_2 {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size:50px;
+
+}
+
 .header button {
 color: white;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-family: sans-serif;
 font-weight: bolder;
 background-color: rgb(15, 14, 14);
 height: 50px;
 width: 240px;
-border-radius:30%;
-
-
+border-radius: 50px;
+margin-bottom: 30%;
 
 }
 
