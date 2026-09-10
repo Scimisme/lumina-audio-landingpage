@@ -17,13 +17,14 @@ footer{
 
   .column {
     float: left;
-    padding: 50px;
+    padding: 50px 50px;
     height: 500px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: smaller;
     font-weight: bolder;
     color: #cebbad;
     line-height: 300%;
+    width: 25%;
   }
 
   .column h3 {
@@ -32,8 +33,10 @@ footer{
   }
 
   .row {
+    display: flex;
+flex-wrap: wrap;
     content: "";
-    display: table;
+
     clear: both;
   }
 
