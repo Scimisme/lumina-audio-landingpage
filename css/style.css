@@ -6,15 +6,18 @@
     box-sizing: border-box;
 }
 
-/* Footer */
+/* Header */
 
 .header {
     background-image: url(Hero_page_1.jpg);
     background-size: cover;
     height: 500px;
     width: 100%;
+    
 }   
 
+
+/* Footer */
 
 footer{
     background-color: #29274a;
