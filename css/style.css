@@ -8,17 +8,26 @@
 
 /* Footer */
 
+footer{
+    background-color: #29274a;
+    width: 100%;
+    justify-content: space-evenly;
+}
 
 
   .column {
     float: left;
-    width: 226px;
-    padding:5px;
-    height: 450px;
-    background-color: #29274a;
+    padding: 50px;
+    height: 500px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: smaller;
+    font-weight: bolder;
     color: #cebbad;
     line-height: 300%;
+  }
+
+  .column h3 {
+    font-size: large;
 
   }
 
@@ -30,10 +39,11 @@
 
 
     .copyright {
-
-    position: absolute;
-    bottom: 13px;
-    left: 20px;
+    position: relative;
+    color: #cebbad;
+    bottom: 20px;  
+    left: 3%;
     font-size: 14px;
     font-weight: 400;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
     }
