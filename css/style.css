@@ -6,15 +6,33 @@
     box-sizing: border-box;
 }
 
-/* Header */
 
+
+/* Header */
 .header {
     background-image: url(Hero_page_1.jpg);
     background-size: cover;
     height: 500px;
     width: 100%;
-    
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 10%;
 }   
+
+.header h2 {
+    font-weight: 100;
+    padding-top: 10%;
+    
+}
+
+#lumina_title {
+    size: 10px;
+}
+
+
+
+
+
+
 
 
 /* Footer */
@@ -53,7 +71,7 @@ footer{
 
     .copyright {
     position: relative;
-    color: #cebbad;
+    color: #EBD5BF;
     bottom: 0px;  
     left: 3%;
     font-size: 14px;
