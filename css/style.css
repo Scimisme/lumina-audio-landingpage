@@ -12,35 +12,45 @@
 .header {
     background-image: url(Hero_page_1.jpg);
     background-size: cover;
-    height: 500px;
-    width: 100%;
+    height: 100%;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    padding-left: 10%;
+    padding-left: 5%;
+    line-height: 350%;
+    margin-left: 5%;
+    margin-right: 5%;
 }   
 
-.header h2 {
-    font-weight: 100;
-    padding-top: 10%;
-    
-}
-
 #lumina_title {
-    size: 10px;
+width: 20em;
 }
 
+#lumina_one {
+padding-top: 10%;
+width: 15em;
+}
+    
+.header h1 {
+    
+    line-height:110%;
+    font-weight: lighter;
+}
 
-
-
-
+.header p {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    line-height: 110%;
+}
 
 
 
 /* Footer */
 
 footer{
-    background-color: #29274a;
+    background-color: #4F4B42;
     width: 100%;
     justify-content: space-evenly;
+    padding-left: 5%;
+    
 }
 
 
@@ -72,7 +82,7 @@ footer{
     .copyright {
     position: relative;
     color: #EBD5BF;
-    bottom: 0px;  
+    bottom: 5px;  
     left: 3%;
     font-size: 14px;
     font-weight: 400;
