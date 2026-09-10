@@ -18,16 +18,14 @@
 }
 
 .foot_container {
-    display: grid;
-    grid-template-columns: 1.1fr 1fr 1fr 1fr;
-    column-gap: 70px;
-    max-width: 1200px;
+    column-count: 3;
 }
 
 
+
 .footer_column h3 {
-    font-size: 16px;
-    font-weight: 800;
+    font-size: 20px;
+    font-weight: 900;
     margin-bottom: 25px;
 }
 
@@ -53,9 +51,7 @@
     font-weight: 600;
     }
 
-    .footer_column p:hover {
-        opacity: 0.7;
-    }
+  
 
     .copyright {
 
