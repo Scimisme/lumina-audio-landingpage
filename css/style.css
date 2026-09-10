@@ -27,7 +27,7 @@
 
 .footer_column h3 {
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 800;
     margin-bottom: 25px;
 }
 
@@ -38,12 +38,11 @@
 
 .footer_column li{
     position: relative;
-    padding-left: 22px;
+    padding-left: 20px;
     margin-bottom: 24px;
 }
 
 .footer_column li::before{
-    content: "*";
     position: relative;
     left: 7px;
 }
