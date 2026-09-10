@@ -12,9 +12,13 @@
 
   .column {
     float: left;
-    width: 25%;
-    padding: 10px;
-    height: 300px;
+    width: 226px;
+    padding:5px;
+    height: 450px;
+    background-color: #29274a;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #cebbad;
+    line-height: 300%;
 
   }
 
