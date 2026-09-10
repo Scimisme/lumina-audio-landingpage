@@ -22,11 +22,12 @@
 
 
 #lumina_title {
-
+    padding-top: 2%;
+    width: 30em;
 }
 
 #lumina_one {
-padding-top: 11%;
+padding-top: 10%;
 width: 15em;
 }
     
