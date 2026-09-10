@@ -8,6 +8,14 @@
 
 /* Footer */
 
+.header {
+    background-image: url(Hero_page_1.jpg);
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+}   
+
+
 footer{
     background-color: #29274a;
     width: 100%;
@@ -18,7 +26,7 @@ footer{
   .column {
     float: left;
     padding: 50px 50px;
-    height: 500px;
+    height: 550px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: smaller;
     font-weight: bolder;
@@ -34,9 +42,8 @@ footer{
 
   .row {
     display: flex;
-flex-wrap: wrap;
+    flex-wrap: wrap;
     content: "";
-
     clear: both;
   }
 
@@ -44,7 +51,7 @@ flex-wrap: wrap;
     .copyright {
     position: relative;
     color: #cebbad;
-    bottom: 20px;  
+    bottom: 0px;  
     left: 3%;
     font-size: 14px;
     font-weight: 400;
