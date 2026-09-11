@@ -9,7 +9,7 @@
 
 /* Header */
 .header {
-    background-image: url(background_hero.jpg);
+    background-image: url(Hero\ picture.png);
     background-size:cover;
     background-position:center;
 
@@ -27,7 +27,7 @@
 }
 
 .text_header {
- padding-left: 8%;
+ padding-left: 4%;
 }
 
 #lumina_title {
