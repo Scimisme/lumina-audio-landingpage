@@ -7,18 +7,29 @@
 }
 
 
-
 /* Header */
 .header {
-    background-image: url(Hero_page_1.jpg);
+    background-image: url(background_hero.jpg);
     background-size:cover;
     background-position:center;
+
     height: 100%;
-    padding-left: 5%;
-    line-height: 350%;
    
+    line-height: 350%;
+
 }   
 
+#menu {
+    padding-left: 18px;
+    padding-top: 16px;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+}
+
+.text_header {
+ padding-left: 8%;
+}
 
 #lumina_title {
     padding-top: 2%;
@@ -64,7 +75,6 @@ border-radius: 50px;
 margin-bottom: 30%;
 
 }
-
 
 /* Footer */
 
