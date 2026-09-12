@@ -8,8 +8,13 @@
 
 
 /* Header */
+
+.body {
+padding-left: 15px;
+}
+
 .header {
-    background-image: url(Hero\ picture.png);
+    background-image: url(background_hero.jpg);
     background-size:cover;
     background-position:center;
 
@@ -19,21 +24,21 @@
 }   
 
 #menu {
-   width: 40px;
-   height: 35px;
-   padding-left: 15px;
-   padding-top:10px;
-   position:fixed;
+    height: 30px;
+    width: 30px;
+
 }
 
 .text_header {
  padding-left: 4%;
+ 
 }
 
 #lumina_title {
    
     width: 30em;
     padding-top: 10px;
+
 }
 
 #lumina_one {
@@ -76,6 +81,58 @@ margin-bottom: 30%;
 
 }
 
+/*body*/
+
+#func-overview {
+
+height: 100px;
+background-color: #EDE7E0;
+}
+
+#tone {
+
+    height: 500px;
+    
+}
+
+/*Light setion*/
+
+#light {
+    background-color: #EDE7E0;
+    height: 500px;
+    padding-left: 15px;
+}
+
+#light h1 {
+    
+    font-family: sans-serif;
+    font-weight: 500;
+    line-height: 110%;
+    font-size:50px;
+}
+
+#light p {
+    color: #4F4B42;
+    text-align: left;
+    width: 50%;
+    color: 312323%;
+}
+
+/*App section*/
+
+#app {
+height: 500px;
+}
+
+/*Social */
+
+#social {
+    height: 500px;
+    background-color: #ede7e0;
+    
+}
+
+/*footer*/
 
 footer{
     background-color: #4F4B42;
