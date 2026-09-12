@@ -111,11 +111,78 @@ background-color: #EDE7E0;
     font-size:50px;
 }
 
-#light p {
+#light_p {
     color: #4F4B42;
     text-align: left;
     width: 50%;
     color: 312323%;
+}
+
+.colors_1 {
+
+}
+
+#light_1{
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    background-color: #FCEFDF;
+    margin-right: 2px;
+    float: left;
+    }
+
+#light_2{
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    background-color: #F7E1CF;
+      margin-right: 2px;
+   float: inline-start;
+    }
+
+#light_3{
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    background-color: #F1C59C;
+    margin-right: 2px;
+    float:left;
+    }
+
+#light_4{
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    background-color: #FF5789;
+    margin-right: 2px;
+    float: left;
+    }
+
+#light_5{
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    background-color: #BD57ED;
+      margin-right: 2px;
+   float: inline-start;
+    }
+
+#light_6{
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    background-color: #4F7CFF;
+    margin-right: 2px;
+    float:left;
+    }
+
+
+
+.light_row {
+        display: flex;
+        flex-wrap: wrap;
+        content: "";
+        clear: both;
 }
 
 /*App section*/
@@ -157,7 +224,6 @@ footer{
 
   .column h3 {
     font-size: large;
-
   }
 
   .row {
