@@ -14,10 +14,9 @@ padding-left: 15px;
 }
 
 .header {
-    background-image: url(background_hero.jpg);
+    background-image: url(../img/background_hero.jpg);
     background-size:cover;
     background-position:center;
-
     height: 100%;
     line-height: 350%;
 
@@ -114,7 +113,7 @@ background-color: #EDE7E0;
 }
 
 #light_p {
-   
+   line-height: auto;
 }
 
 .light_row {
