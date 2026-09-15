@@ -231,13 +231,14 @@ height: 500px;
 /*Social */
 
 #social {
-    height: 1122px;
+    /*height: 1122px;*/
+    height: auto;
     background-color: #ede7e0;
     padding: 65px;
 }
 
 #social h1 {
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 100;
     font-size:65px;
 }
@@ -251,7 +252,7 @@ height: 500px;
 }
 
 #social p {
-   color: #1b1915;
+    color: #1b1915;
     font-family: sans-serif;
     font-weight: 200;
     font-size:medium;
@@ -260,14 +261,14 @@ height: 500px;
 }
 
 .sound_row {
-     display: flex;
-        flex-wrap: wrap;
-        content: "";
-        clear: both;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    /* content: "";
+    clear: both; */
 }
 
 .sound_column {
-     
     width: 450px;
     margin-top: 40px;
     margin-right: 15px;
@@ -276,9 +277,10 @@ height: 500px;
 }
 
 .sound_images {
-    
-    width: 450px;
-    height: 552px;
+    width: 100%;
+    max-width: 450px;
+    /* height: 552px; */
+    aspect-ratio: 450 / 552;
     border-radius:4%;
 
 }
