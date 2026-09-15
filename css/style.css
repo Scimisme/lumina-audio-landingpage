@@ -231,7 +231,6 @@ height: 500px;
 /*Social */
 
 #social {
-    /*height: 1122px;*/
     height: auto;
     background-color: #ede7e0;
     padding: 65px 0 65px 65px;
@@ -260,7 +259,7 @@ height: 500px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 200;
     font-size:medium;
-    width: 50%;
+    width: 90%;
 }
 
 #social p b {
@@ -269,12 +268,9 @@ height: 500px;
 
 .sound_row {
     display: flex;
-    /* flex-wrap: wrap; */
     gap: 24px;
     overflow-x: auto;
     scrollbar-width: none;
-    /* content: "";
-    clear: both; */
 }
 
 .sound_column {
@@ -288,8 +284,7 @@ height: 500px;
 
 .sound_images {
     width: 100%;
-    max-width: 400px;
-    /* height: 552px; */
+    max-width: 450px;
     aspect-ratio: 450 / 552;
     border-radius:4%;
 
