@@ -241,9 +241,15 @@ padding: 65px;
     font-weight: 700;
 }
 
-#app img {
-    
+#app p {
+    color: #1b1915;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size:medium;
+    width: 90%;
 }
+
+
 
 /*Social */
 
