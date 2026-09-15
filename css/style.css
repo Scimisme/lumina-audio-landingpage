@@ -225,8 +225,31 @@ background-color: #EDE7E0;
 /*App section*/
 
 #app {
-height: 500px;
+height: 757px;
+background-image: url(../img/try_our_app_1.jpg);
+padding: 65px;
 }
+
+#app h1 {
+    /* padding: 0 0 0 65px; */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size:65px;
+}
+
+#app h1 b {
+    font-weight: 700;
+}
+
+#app p {
+    color: #1b1915;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size:medium;
+    width: 90%;
+}
+
+
 
 /*Social */
 
