@@ -23,34 +23,47 @@ padding-left: 15px;
 
 }   
 
-#menu {
-    height: 30px;
-    width: 30px;
-    margin-right: 2%;
-}
-
 .text_header {
  padding-left: 4%;
  
 }
 
-#lumina_title {
-   
-    width: 30em;
-    padding-top: 10px;
+#burger {
+    margin-top: 10px;
+    position:absolute;
+}
+
+#LUMINA_AUDIO {
+    color: rgb(240, 240, 240);
+     margin-top: 10px;
+    font-family: sans-serif;
+    font-weight: 100;
+    letter-spacing: 12px; 
+    font-size: xx-large;
+}
+
+#loop {
 
 }
 
-#lumina_one {
-padding-top: 10%;
-width: 15em;
+#bag {
+
 }
     
+#h1_0 {
+    color: rgb(240, 240, 240);
+    font-family: sans-serif;
+    font-weight: 100;
+    letter-spacing: 4px;
+    
+}
+
 #h1_1{
     font-family: sans-serif;
     font-weight: 500;
     line-height: 110%;
     font-size:50px;
+    color: #f5f5f4;
 }
 
 .header p {
@@ -59,6 +72,7 @@ width: 15em;
     padding-bottom: 2%;
     line-height: 110%;
     font-weight:lighter;
+    color: rgb(240, 240, 240);
 }
 
 #h1_2 {
@@ -66,14 +80,15 @@ width: 15em;
     font-weight: 500;
     font-size:50px;
     margin-bottom: 2%;
+    color: rgb(240, 240, 240);
 }
 
 .header button {
-color: white;
+color: rgb(15, 13, 13);
 font-family: sans-serif;
 font-size: large;
-font-weight: bolder;
-background-color: rgb(15, 14, 14);
+background-color: rgb(240, 240, 240);
+border-color: rgb(240, 240, 240);
 height: 50px;
 width: 240px;
 border-radius: 50px;
@@ -91,7 +106,7 @@ background-color: #EDE7E0;
 
 #tone {
 
-    height: 500px;
+height: 500px;
     
 }
 
