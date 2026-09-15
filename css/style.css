@@ -271,6 +271,8 @@ height: 500px;
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
+    overflow-x: auto;
+    scrollbar-width: none;
     /* content: "";
     clear: both; */
 }
@@ -292,9 +294,10 @@ height: 500px;
 
 }
 
-.sound_p_color {
+.sound_p_color i {
     color:#4F4B42
 }
+
 
 /*footer*/
 
