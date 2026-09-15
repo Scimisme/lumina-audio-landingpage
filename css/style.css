@@ -249,7 +249,28 @@ padding: 65px;
     width: 90%;
 }
 
+#app_knapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 40px;
+}
 
+.app_downloads {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+#app_knapper button {
+    width: fit-content;
+    height: fit-content;
+    background-color: transparent;
+    border-width: 0px;
+    border-color: transparent;
+    border-radius: 30px;
+}
 
 /*Social */
 
