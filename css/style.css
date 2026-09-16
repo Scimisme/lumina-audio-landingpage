@@ -80,6 +80,43 @@ margin-bottom: 30%;
 border: none;
 }
 
+/*under hero*/
+
+.benefits {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #f4eee7;
+    padding: 30px 8%;
+}
+.benefit {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.benefit-icon img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    display: block;
+}
+.benefit h3 {
+    margin: 0 0 4px 0;
+    font-size: 16px;
+    font-weight: 600;
+}
+.benefit p {
+    margin: 0;
+    font-size: 13px;
+    color: #666;
+}
+
+
+
+
+
+
 /*body*/
 
 #func-overview {
