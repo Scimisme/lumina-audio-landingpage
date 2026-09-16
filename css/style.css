@@ -6,6 +6,7 @@
     box-sizing: border-box;
 }
 
+
 h2 { 
     font-family: 'Montserrat', sans-serif;
     font-weight: 100;
@@ -27,41 +28,71 @@ p {
 b {
     font-weight:800;
 }
+
 /* Header */
 
 .body {
-padding-left: 15px;
-}
-
-.header {
-    background-image: url(../img/background_hero.jpg);
-    background-size:cover;
-    background-position:center;
-    height: 100%;
-    line-height: 350%;
-
-}   
-
-#menu {
-    height: 30px;
-    width: 30px;
-    margin-right: 2%;
+    padding-left: 15px;
 }
 
 .text_header {
-       padding: 65px;
+    padding: 65px;
 }
 
-#lumina_title {
-   
-    width: 30em;
-    padding-top: 10px;
+.header {
+   background-image: url(../img/background_hero.jpg);
+    background-size: cover;
+    background-position: center;
 
+}   
+
+#navbar {
+display: flex;
+align-items: center;
 }
+
+#logo {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#tools {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+    
+}
+
+#tools img {
+    width: 50px;
+    height: 50px;
+}
+
+#menu {
+    height: 40px;
+    width: 40px;
+    margin-right: 2%;
+    display: flex;
+}
+
+#lumina_audio {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size: 40px;
+    color: #f3f2f2;
+    display: flex;
+    margin-top: 0px;
+}
+ 
+#loop {
+    display: inline;
+}
+
 
 #lumina_one {
 padding-top: 10%;
 width: 15em;
+    color: white;
 }
     
 #h1_1{
@@ -69,6 +100,7 @@ width: 15em;
     font-weight: 500;
     line-height: 110%;
     font-size:50px;
+    color: #fffdfd;
 }
 
 .header p {
@@ -77,6 +109,7 @@ width: 15em;
     padding-bottom: 2%;
     line-height: 110%;
     font-weight:lighter;
+    color: #fefefe;
 }
 
 #h1_2 {
@@ -84,18 +117,19 @@ width: 15em;
     font-weight: 100;
     font-size:50px;
     margin-bottom: 2%;
+    color: #ffffff;
 }
 
 .header button {
-color: white;
+color: rgb(15, 8, 8);
 font-family: sans-serif;
 font-size: large;
 font-weight: bolder;
-background-color: rgb(15, 14, 14);
+background-color: white;
 height: 50px;
 width: 240px;
 border-radius: 50px;
-margin-bottom: 30%;
+margin-bottom: 60px;
 border: none;
 }
 
@@ -105,9 +139,8 @@ border: none;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    background-color: #f4eee7;
     padding: 30px 8%;
+    background-color: #EDE7E0;
 }
 .benefit {
     display: flex;
@@ -118,7 +151,6 @@ border: none;
     width: 40px;
     height: 40px;
     object-fit: contain;
-    display: block;
 }
 .benefit h3 {
     margin: 0 0 4px 0;
@@ -133,15 +165,13 @@ border: none;
 
 
 
-
-
-
 /*body*/
 
 #func-overview {
 
 height: 100px;
 background-color: #EDE7E0;
+
 }
 
 #tone {
@@ -408,6 +438,7 @@ footer{
     grid-template-columns: 1fr 1.3fr; /*fordeling af hvor meget plads de to grids optager*/
     gap: 40px;
     align-items: start;
+
 }
 
 
@@ -462,7 +493,7 @@ footer{
 .purchase {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: flex-end;
     margin-top: 35px;
 }
 
