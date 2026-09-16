@@ -454,20 +454,21 @@ footer{
 
 /*styling af details / summary */
 .product-details {
-    border-top: 1px solid #555147;
+    border-top: 1px solid #8c8984;
     font-family: montserrat;
     text-transform: uppercase;
+    margin-top: 10px;
 }
 
 .product-details details {
-    border-bottom: 1px solid #555147;
+    border-bottom: 1px solid #8c8984;
 }
 
 .product-details summary {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 0;
+    padding: 5px 0;
     cursor: pointer;
     list-style: none;
 }
