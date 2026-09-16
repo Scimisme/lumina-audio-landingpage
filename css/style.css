@@ -335,13 +335,17 @@ footer{
 /*Find your tone styling*/
     
 #tone {
-    padding: 0px 65px; /*denne sections padding - der er tilføjet lidt mere ift. højde*/
+    padding: 0px 65px; 
+    margin-bottom: 10px;
+    height: 100%;/*denne sections padding - der er tilføjet lidt mere ift. højde*/
 }
 
 .thumbnails {
     display: flex;
     align-items: center;
     gap: 12px;
+    margin-top: 8px;
+    justify-content: center;
 }
 
 .thumbnails img {
@@ -388,9 +392,12 @@ footer{
     object-fit: contain;
 }
 
+/*knapper til produktets farve + styling deraf*/
 .colors {
     display: flex;
+    align-items: center;
     gap: 16px;
+    padding: 20px;
 }
 
 .colors button {
@@ -399,6 +406,18 @@ footer{
     border: none;
     border-radius: 8px;
     cursor: pointer;
+    border: 1px solid #8a857d;
+    margin-top: -5px;
+}
+
+.colors button:hover,
+.colors button.active {
+    width: 35px;
+    height: 35px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 1px solid #8a857d;
 }
 
 .dusty-rose {background-color: #d8a0a0;}
@@ -436,6 +455,8 @@ footer{
 /*styling af details / summary */
 .product-details {
     border-top: 1px solid #555147;
+    font-family: montserrat;
+    text-transform: uppercase;
 }
 
 .product-details details {
