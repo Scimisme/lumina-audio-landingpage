@@ -380,6 +380,7 @@ footer{
     align-items: start;
 }
 
+
 .product-heading {
     display: flex;
     justify-content: space-between;
@@ -456,7 +457,6 @@ footer{
 .product-details {
     border-top: 1px solid #8c8984;
     font-family: montserrat;
-    text-transform: uppercase;
     margin-top: 10px;
 }
 
@@ -471,6 +471,7 @@ footer{
     padding: 5px 0;
     cursor: pointer;
     list-style: none;
+    text-transform: uppercase;
 }
 
 .product-details summary::-webkit-details-marker {
@@ -484,4 +485,8 @@ footer{
 }
 .product-details details[open] summary::after {
     transform: rotate(90deg); /* får pilen til at vende ned ad når summary er åben*/
+}
+
+.product-details details p { /*styler kun paragraffen inde i details */
+    padding-bottom: 10px;
 }
