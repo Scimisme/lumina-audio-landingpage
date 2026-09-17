@@ -105,10 +105,10 @@ width: 15em;
 }
 
 .header p {
-    font-family: sans-serif;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    line-height: 110%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 18px;
     font-weight:lighter;
     color: #fefefe;
 }
