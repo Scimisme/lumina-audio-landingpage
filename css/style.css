@@ -43,7 +43,7 @@ b {
    background-image: url(../img/heropicgradient.jpg);
     background-size: cover;
     background-position: center;
-    padding: 0px 65px;
+    padding: 0 65px;
 
 }   
 
@@ -585,8 +585,7 @@ footer{
 
 header {
     width: 100%;
-    background: #d9c8b8;
-    background: linear-gradient(180deg,rgba(217, 200, 184, 1) 0%, rgba(217, 200, 184, 0.5) 100%);
+    background: #a6907b;
     display: flex;
     gap: 2%;
     flex-direction: row;
@@ -594,6 +593,7 @@ header {
     align-items: center;
     position: fixed; 
     padding: 0 65px; 
+    z-index: 1;
 }
 
 ul.navbar {
@@ -611,4 +611,3 @@ li {
 a {
     text-decoration: none;
 }
-
