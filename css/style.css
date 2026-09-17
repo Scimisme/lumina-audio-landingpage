@@ -44,12 +44,11 @@ b {
     background-size: cover;
     background-position: center;
     padding: 0 65px;
-
 }   
 
 #navbar {
-display: flex;
-align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 #logo {
@@ -61,8 +60,7 @@ align-items: center;
 #tool2 {
     display: flex;
     justify-content: flex-end;
-    margin-left: auto;
-    
+    margin-left: auto;  
 }
 
 #tools img {
@@ -92,8 +90,8 @@ align-items: center;
 
 
 #lumina_one {
-padding-top: 10%;
-width: 15em;
+    padding-top: 10%;
+    width: 15em;
     color: white;
     font-family: 'Montserrat', sans-serif;
 }
@@ -124,16 +122,16 @@ width: 15em;
 }
 
 .header button {
-color: rgb(15, 8, 8);
-font-family: sans-serif;
-font-size: large;
-font-weight: bolder;
-background-color: white;
-height: 50px;
-width: 240px;
-border-radius: 50px;
-margin-bottom: 60px;
-border: none;
+    color: rgb(15, 8, 8);
+    font-family: sans-serif;
+    font-size: large;
+    font-weight: bolder;
+    background-color: white;
+    height: 50px;
+    width: 240px;
+    border-radius: 50px;
+    margin-bottom: 60px;
+    border: none;
 }
 
 /*under hero*/
@@ -143,7 +141,7 @@ border: none;
     justify-content: space-between;
     align-items: center;
     padding: 30px 8%;
-   background: #d9c8b8;
+    background: #d9c8b8;
     background: linear-gradient(180deg,rgba(217, 200, 184, 0.93) 0%, rgba(255, 255, 255, 1) 100%);
 
 }
@@ -168,14 +166,10 @@ border: none;
     color: #666;
 }
 
-
-
 /*body*/
 
 #tone {
-
     height: 500px;
-    
 }
 
 /*Light setion*/
@@ -245,13 +239,17 @@ border: none;
     position: absolute;
 }
 
+.light_chill_img, .light_party_img, .light_sunset_img {
+    border-radius: 30px;
+}
+
 
 /*App section*/
 
 #app {
-height: 757px;
-background-image: url(../img/try_our_app_1.jpg);
-padding: 65px;
+    height: 757px;
+    background-image: url(../img/try_our_app_1.jpg);
+    padding: 65px;
 }
 
 #app h1 {
@@ -367,7 +365,7 @@ padding: 65px;
 
 /*footer*/
 
-footer{
+footer  {
     background-color: #4F4B42;
     width: 100%;
     justify-content: space-evenly;
@@ -406,7 +404,7 @@ footer{
     left: 3%;
     font-size: 14px;
     font-weight: 400;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
     }
 
 /*Find your tone styling*/
@@ -477,6 +475,7 @@ footer{
     width: 100%;
     height: auto;
     object-fit: contain;
+    border-radius: 30px;
 }
 
 /*knapper til produktets farve + styling deraf*/
@@ -507,13 +506,21 @@ footer{
     border: 1px solid #8a857d;
 }
 
-.dusty-rose {background-color: #d8a0a0;}
+.dusty-rose {
+    background-color: #d8a0a0;
+}
 
-.sage-green {background-color: #8a987c;}
+.sage-green {
+    background-color: #8a987c;
+}
 
-.moonlight-white {background-color: #f2eee5;}
+.moonlight-white {
+    background-color: #f2eee5;
+}
 
-.lavender-mist {background-color: #c8bdd5;}
+.lavender-mist {
+    background-color: #c8bdd5;
+}
 
 .purchase {
     display: flex;
