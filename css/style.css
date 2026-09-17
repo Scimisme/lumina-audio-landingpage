@@ -204,25 +204,43 @@ border: none;
 .light_column {
     display: flex;
     margin-top: 20px;
+    align-items: stretch;
 }
 
 .light_row {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: right;
-        gap: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    margin-left: 20px;
 }
 
+.party_box {
+    position: relative;
+    flex: 1;
+    display: flex;
+} 
 
-
-.light_images {
-    
-    width: 450px;
-    height: 552px;
-    border-radius:4%;
-
+.chill_box {
+    position: relative;
+    flex: 1;
+    display: flex;
 }
 
+.chill_img {
+    width: 100%;
+    height: 100%;
+}
+
+.light_row img {
+    width: 100%;
+    height: 100%;
+    flex: 1;
+}
+
+.light_overlay {
+    position: absolute;
+}
 
 
 /*App section*/
@@ -351,7 +369,6 @@ footer{
     padding-left: 5%;
     
 }
-
 
   .column {
     float: left;
