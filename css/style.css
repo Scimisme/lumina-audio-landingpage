@@ -245,6 +245,11 @@ border: none;
     position: absolute;
 }
 
+.light_chill_img, .light_party_img, .light_sunset_img {
+    border-radius: 30px;
+}
+
+
 
 /*App section*/
 
@@ -477,6 +482,7 @@ footer{
     width: 100%;
     height: auto;
     object-fit: contain;
+    border-radius: 30px;
 }
 
 /*knapper til produktets farve + styling deraf*/
