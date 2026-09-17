@@ -20,7 +20,7 @@ h3 {
 }
 
 p {
-    font-family: Montserrat, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 13px;
     line-height: 18px;
 }
@@ -93,6 +93,7 @@ align-items: center;
 padding-top: 10%;
 width: 15em;
     color: white;
+    font-family: 'Montserrat', sans-serif;
 }
     
 #h1_1{
