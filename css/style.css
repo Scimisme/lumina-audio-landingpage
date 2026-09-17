@@ -269,13 +269,14 @@ padding: 65px;
     font-weight: 200;
     font-size:medium;
     width: 90%;
+    padding-bottom: 40px;
 }
 
 #app_knapper {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    margin-top: 40px;
+    margin-top: 80px;
 }
 
 .app_downloads {
@@ -293,6 +294,7 @@ padding: 65px;
     border-color: transparent;
     border-radius: 30px;
 }
+
 
 /*Social */
 
