@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LUMINA Audio Landingpage</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
 </head>
 
 <body>
@@ -15,12 +17,19 @@
         
    
         <div class="text_header">
-        
-            <img src="img/menu-icon.png" alt="menu" id="menu">
-            <img src="img/LUMINA_AUDIO.svg" id="lumina_title" >
-
-            <br>
-            <img src="img/NEW LUMINΛ ONE.svg" role="img" alt="lumina_one" id="lumina_one">
+            
+            <div id="navbar">
+    <img src="/img/burger_menu.svg" alt="menu" id="menu">
+            <div id="logo">
+            <h1 id="lumina_audio">LUMINΛ  ΛUDIO </h1>
+            </div>
+            <div id="tools">
+            <img src="/img/loop.svg". id="loop">
+            <img src="/img/bag.svg" i="bag">
+            </div>
+            </div>
+            
+            <h1 id="lumina_one">NEW LUMINΛ ONE</h1>
             <h1 id="h1_1">BRING LIGHT TO<br> YOUR SOUND</h1>
             <p>Powerful sound, ambient light and<br>
             timeless design - made to move with you</p>
@@ -85,15 +94,102 @@
 
     <!--Main content-->
     <main>
-        <!--Overview over funktioner-->
-        <section id="func-overview">
-        </section>
+        
 
-        <!--FIND YOUR TONE-->
-        <section id="tone">
-            <h1>FIND YOUR <B>TONE</B></h1>
-            <p><b>LUMINA ONE</b> / SAGE GREEN</p>
-        </section>
+<!--Find your tone-->
+<section id="tone">
+
+<h2>FIND YOUR <span style="font-weight: bold;">TONE</span></h2>
+
+<article class="product">
+
+<!-- VENSTRE KOLONNE -->
+<div class="product-gallery">
+
+<figure class="product-image">
+    <img src="img/lumina-speaker.png" alt="Lumina One speaker in Sage Green">
+</figure>
+
+    <div class="thumbnails">
+        <button class="gallery-arrow" type="button">‹</button>
+
+        <button type="button">
+        <img src="img/lumina-speaker.png" alt="">
+        </button>
+
+        <button type="button">
+        <img src="img/ambient-light.png" alt="">
+        </button>
+
+        <button type="button">
+        <img src="img/above.png" alt="">
+        </button>
+
+        <button type="button">
+        <img src="img/totebag.png" alt="">
+        </button>
+
+        <button type="button">
+        <img src="img/package.png" alt="">
+        </button>
+
+        <button class="gallery-arrow" type="button">›</button>
+            </div>
+
+        </div>
+
+
+<!-- HØJRE KOLONNE -->
+<div class="product-info">
+
+<div class="product-heading">
+                <h3><span style="font-weight: bold;">LUMINA ONE</span> / SAGE GREEN</h3>
+
+<div class="colors">
+    <button class="dusty-rose"></button>
+    <button class="sage-green active"></button>
+    <button class="moonlight-white"></button>
+    <button class="lavender-mist"></button>
+</div>
+</div>
+
+<p>
+Find your tone to your tune. We have the lovely earthy tones: Dusty Rose, Sage Green, Moonlight White & Lavender Mist. <br><br>
+Perfect for every occasion! And for every speaker follows a LUMINΛ tote-bag, so you can bring your speaker anywhere!
+</p>
+
+<div class="product-details">
+<details>
+<summary>The package includes</summary>
+<p>
+tekst her
+</p>
+</details>
+
+<details>
+<summary>Key features</summary>
+<p>
+    <b>Powerful Sound</b>	Up to 100 dB <br>
+    <b>Ambient Light</b>	Customisable Chill, Party & Sunset modes <br>
+    <b>Lightweight</b>	Just 1.5 kg <br>
+    <b>18-Hour Battery</b>	Up to 18 hours of playtime <br>
+    <b>Connectivity</b>	Bluetooth 5.3 & AUX <br>
+    <b>Multi-Speaker</b>	Pair up to 4 LUMINA One speakers through LUMINA app<br>
+    <b>Social Connect</b>	Blend playlists through the LUMINA app <br>
+    <b>Water Resistant</b>	IPX5 rated <br>
+</p>
+</details>
+</div>
+
+
+<div class="purchase">
+<p>1499,-</p>
+<button>BUY NOW</button>
+</div>
+</div>
+
+</article>
+</section>
 
         <!--LIGHT FOR EVERY MOMENT-->
         <section id="light">
@@ -101,15 +197,21 @@
             <p>Create the right atmosphere with ambient light that adapts to your moment. </p>
             
             <div class="light_column">
-                
-                <img src="img/light_chill.png" alt="LUMINA ONE in chill environment">
+                <div class="chill_box">
+                    <img src="img/light_chill.png" alt="LUMINA ONE in chill environment">
+                    <img src="img/text_chill.svg" alt="Chill" class="light_overlay">
+                </div>
 
                 <div class="light_row">
+                    <div class="party_box">
+                        <img src="img/light_party.png" alt="LUMINA ONE in party environment">
+                        <img src="img/text_party.svg" alt="Party" class="light_overlay party_overlay">
+                    </div>
 
-                <img src="img/light_party.png" alt="LUMINA ONE in party environment">
-
-                <img src="img/light_sunset.png" alt="LUMINA ONE in sunset environment">
-                
+                    <div class="party_box">
+                        <img src="img/light_sunset.png" alt="LUMINA ONE in sunset environment">
+                        <img src="img/text_sunset.svg" alt="Sunset" class="light_overlay party_overlay">
+                    </div>
                 </div>
             </div>
 
