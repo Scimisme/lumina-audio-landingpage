@@ -105,10 +105,10 @@ width: 15em;
 }
 
 .header p {
-    font-family: sans-serif;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    line-height: 110%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 18px;
     font-weight:lighter;
     color: #fefefe;
 }
@@ -269,13 +269,14 @@ padding: 65px;
     font-weight: 200;
     font-size:medium;
     width: 90%;
+    padding-bottom: 40px;
 }
 
 #app_knapper {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    margin-top: 40px;
+    margin-top: 80px;
 }
 
 .app_downloads {
@@ -293,6 +294,7 @@ padding: 65px;
     border-color: transparent;
     border-radius: 30px;
 }
+
 
 /*Social */
 
