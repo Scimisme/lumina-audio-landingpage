@@ -43,6 +43,7 @@ b {
    background-image: url(../img/heropicgradient.jpg);
     background-size: cover;
     background-position: center;
+    padding: 0 65px;
 
 }   
 
@@ -578,4 +579,33 @@ footer{
 
 .product-details details p { /*styler kun paragraffen inde i details */
     padding-bottom: 10px;
+}
+
+header {
+    width: 100%;
+    background: #a6907b;
+    display: flex;
+    gap: 2%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed; 
+    padding: 0 65px; 
+    z-index: 1;
+}
+
+ul.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    gap: 6%;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
 }
